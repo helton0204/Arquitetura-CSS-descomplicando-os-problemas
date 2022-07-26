@@ -1,0 +1,53 @@
+
+.sobre{
+    text-align: center;
+    margin: 3.5rem 0;
+}
+
+.sobre__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 4rem;
+    color: var(--vermelho);
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sobre__descricao{
+    color: var(--cor-fonte-destaque);
+    font-size: 2rem;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+
+/* SMARTPHONE */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    
+    .sobre__titulo{
+        font-size: 3rem;
+        padding: 0 1rem;
+    }
+
+    .sobre__descricao{
+        font-size: 1.8rem;
+        text-align: center;
+        width: 90%;
+    }
+    
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .sobre__titulo{
+        font-size: 2.5rem;
+    }
+
+    .sobre__descricao{
+        color: var(--cor-fonte-destaque);
+        font-size: 1.5rem;
+        width: 88%;
+        padding-top: 1.8rem;
+    }
+
+}

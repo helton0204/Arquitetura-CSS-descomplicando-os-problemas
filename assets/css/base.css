@@ -1,0 +1,13 @@
+:root{
+    --cinza-claro: #e6e6e6;
+    --cinza-medio: #bfbfbf;
+    --cor-fonte-destaque: #5c5c5c;
+    --vermelho: #c80000;
+    --vinho: #980000;
+    --branco: #FFFFFF;
+    --fonte-titulo: 'Pacifico', 'cursive';
+}
+
+body{
+    font-size: 16px;
+}

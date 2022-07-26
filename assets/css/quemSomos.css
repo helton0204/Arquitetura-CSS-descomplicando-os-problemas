@@ -1,0 +1,101 @@
+
+.quem-somos{
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.quem-somos__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+    color: var(--vermelho);
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+}
+
+.quem-somos__descricao{
+    font-size: 1.5rem;
+    color: var(--cor-fonte-destaque);
+}
+
+.quem-somos__pessoas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.quem-somos__pessoa{
+    display: flex;
+    flex-direction: column;
+}
+
+.pessoa__imagem{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.pessoa__imagem--roberta{
+    background-image: url("../img/pessoas/roberta.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pessoa__imagem--marcela{
+    background-image: url("../img/pessoas/marcela.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pessoa__imagem--andreia{
+    background-image: url("../img/pessoas/andreia.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pessoa__nome{
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+    color: var(--vermelho);
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.7rem;
+}
+
+.pessoa__funcao{
+    text-transform: lowercase;
+    font-size: 1.2rem;
+    color: var(--cor-fonte-destaque);
+}
+
+
+/* SMARTPHONE */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    
+    .quem-somos__pessoas{
+        flex-direction: column;
+        row-gap: 3rem;
+        margin-top: 2.5rem;
+    }
+
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .pessoa__imagem{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+
+    .pessoa__nome{
+        font-size: 2.2rem;
+        text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+
+}

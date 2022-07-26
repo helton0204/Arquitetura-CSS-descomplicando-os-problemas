@@ -1,0 +1,37 @@
+
+.banner__titulo{
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 11rem 0;
+    font-family: var(--fonte-titulo);
+    font-size: 5rem;
+    color: var(--branco);
+    text-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
+    text-align: center;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    
+    .banner__imagem{
+        background-image: none;
+    }
+
+    .banner__titulo{ 
+        font-size: 3.5rem;
+        line-height: 5.5rem;
+        padding: 2rem 0;
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .banner__titulo{
+        padding: 6rem 0;
+        font-size: 3rem;
+    }
+
+}

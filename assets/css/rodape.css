@@ -1,0 +1,36 @@
+.rodape{
+    background-color: var(--cor-fonte-destaque);
+    padding: 1rem 5rem;
+}
+
+.rodape__informacao{
+    color: var(--branco);
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+
+/* SMARTPHONE */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    
+    .rodape__informacao{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .rodape{
+        background-color: var(--cor-fonte-destaque);
+        padding: 1rem 2rem;
+    }
+
+    .rodape__informacao{
+        text-align: right;
+        font-size: 1rem;
+    }
+
+}
